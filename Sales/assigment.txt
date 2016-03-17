@@ -1,0 +1,79 @@
+ Modify the attached application to meet these additional and changed business requirements: 
+
+The company has recently changed its total annual compensation policy to improve sales. 
+
+A salesperson will continue to earn a fixed salary of $50,000. The current sales target for every salesperson is $120,000. 
+
+The sales incentive will only start when 80% of the sales target is met. The current commission is 15% of total sales. 
+
+If a salesperson exceeds the sales target, the commission will increase based on an acceleration factor. The acceleration factor is 1.25. That is, 
+
+At 80% of $120,000 (target), a sales person earns no commission - just the base salary of $50,000 
+
+Between 80% and $120,000 (target), a sales person earns 15% commission on top of base salary of $50,000 
+
+At $120,000 (target) and over, the sales person earns 15% x 1.25 commission on top of base salary of $50,000 
+
+The application should ask the user to enter annual sales, and it should display the total annual compensation. 
+
+The application should also display a table of potential total annual compensation that the salesperson could have earned, in $5000 increments above the salesperson's annual sales, until it reaches 50% above the salesperson's annual sales. 
+
+Sample Table: Assuming a total annual sales of $100,000, the table would look like this: 
+
+Total Sales 
+
+Total Compensation 
+
+100,000 
+
+<> 
+
+105,000 
+
+<> 
+
+110,000 
+
+<> 
+
+115,000 
+
+<> 
+
+120,000 
+
+<> 
+
+125,000 
+
+<> 
+
+130,000 
+
+<> 
+
+135,000 
+
+<> 
+
+140,000 
+
+<> 
+
+145,000 
+
+<> 
+
+150,000 
+
+<> 
+
+
+The Java™ application should also meet these technical requirements: 
+
+The application should have at least two classes like in the first assignment. 
+
+The source code must demonstrate the use of conditional and looping structures. 
+
+There should be proper documentation in the source code. 
+

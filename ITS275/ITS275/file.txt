@@ -1,0 +1,11 @@
+Ned 90 85 70 61
+Tyrion 94 91 97 93
+Sansa 60 63 71 69
+Daenerys 64 71 84 89
+Joffrey 60 87 62 60
+Jon 60 60 60 60
+Cersei 91 86 81 66
+Jaime 85 79 81 86
+Petyr 98 97 99 97
+Varys 91 94 93 96
+Stannis 86 83 79 80

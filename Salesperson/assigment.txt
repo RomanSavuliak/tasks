@@ -1,0 +1,17 @@
+Write a Java application using NetBeans Integrated Development Environment (IDE) that calculates the total annual compensation of a salesperson. Consider the following factors: 
+
+•A salesperson will earn a fixed salary of $50,000. 
+
+•A salesperson will also receive a commission as a sales incentive. Commission is a percentage of the salesperson's annual sales. The current commission is 15% of total sales. 
+
+•The total annual compensation is the fixed salary plus the commission earned. 
+
+
+
+The Java application should meet these technical requirements: 
+
+•The application should have two or more classes. There should be an application's controlling class (a controlling class is where the main function resides) and another class. Look over future assignments and think about the best way to write the second class so that it will be easily enhanced. Remember in our discussions that in OOP, an object usually represents an entity and all the data that describes it. What can be considered an entity in this assignment? 
+
+•There should be proper documentation in the source code. 
+
+•The application should ask the user to enter annual sales, and it should display the total annual compensation. 

@@ -1,0 +1,76 @@
+Redesign and rebuild your object oriented program to manage grades for students in classes incorporating lists and other features that have been demonstrated and used in the second half of the course. You will maintain the following information from the midterm. 
+
+1) The class Student should have the following attributes and associated methods to allow entry of the Name and Grades along with the calculation of Gradepoint Average and Letter grade assignment 
+
+Name 
+
+Discussion Grade 
+
+Homework Grade 
+
+Midterm Grade 
+
+Final Grade 
+
+Grade Point Average (calculated) 
+
+Letter Grade (assigned) 
+
+For Undergraduates each category of grade is equally weighted. A grade of A-F may be assigned based on grade point averages of 90 or better for A, 80 -89 for B, 70-79 for C and 60-69 for D with anything below 60 as an F. 
+
+2) The class GraduateStudent extends Student with the following changes: 
+
+The graduate weighting grades is as follows: 
+
+1) Discussion grade is 10 percent 
+
+2) Homework grade is 30 percent 
+
+3) Midterm is 30 percent 
+
+4) Final is 30 percent 
+
+The assignment of grades is as follows for GraduateStudents: 
+
+A – 90 percent or better 
+
+B – 80 – 89 
+
+C – 70-79 
+
+F – below 70 
+
+
+For the final group project create a program to implement the classes and student objects in a list. After creating the list you should then implement the output based on the following set of student grades. Note that you should print out all of the grades for each category and then the final grade and Letter grade for each student. You should consider these two grades from the perspective of each class (ie first time consider the class an undergraduate class and second time consider this a graduate class) 
+
+
+Create output based on the inputs shown below: 
+
+Name DB HW MT Final 
+
+
+
+Submit this program documented in accordance with the standard template used for other assignments in the course. 
+
+Consider using the toString methods noted in class. 
+
+Basic credit (100 Points) Equally weighted based on completion of the 4 tasks below: 
+
+1) Build the objects with the attributes above along with the get, set and toString display methods. 
+
+2) Connect the students using the list data structure. 
+
+3) Calculate the letter grade for each student based in the average and a comparison to a standard grading scale (A-F for undergrads and A-C and F for grad students). 
+
+4) Run at least one alternative list sort. 
+
+Extra credit (50 Points per feature implemented successfully): 
+
+1) Read from a file and load the objects from the file that contains the students name and grades. 
+
+2) Alternatively add a GUI to the front end for the creation of new objects using a GUI front end. 
+
+3) Provide the output in a form similar to the table above with the letter grades 
+
+4) Provide multiple sorts and make the sort selectable from the main method. 
+
