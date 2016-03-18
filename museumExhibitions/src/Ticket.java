@@ -36,7 +36,6 @@ public class Ticket {
 
     public void reduceTickets(int number){
         if (ticketsNumber >= number){
-           // System.out.println("Booking is possible");
             ticketsNumber -= number;
         }
     }

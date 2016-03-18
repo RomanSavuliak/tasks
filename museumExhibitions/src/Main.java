@@ -12,15 +12,6 @@ public class Main {
     public static Money money = new Money(0);
 
     public static void main(String[] args) {
-        /*Exhibitions roman = new Exhibitions("Roman Exhibition", 40);
-        Exhibitions warholArt = new Exhibitions("Warhol Art Exhibition", 40);
-        Exhibitions worldWar2 = new Exhibitions("World War 2 Exhibition", 40);
-        Ticket adult = new Ticket("Adult Ticket", 10, 30);
-        Ticket child = new Ticket("Child Ticket", 5, 30);
-        Ticket student = new Ticket("Student Ticket", 7, 30);
-        Ticket oap = new Ticket("OAP Ticket", 8, 30);
-        Money money = new Money(0);*/
-
             System.out.println("(1) Roman Exhibition");
             System.out.println("(2) Warhol Art Exhibition");
             System.out.println("(3) World War 2 Exhibition");
@@ -36,10 +27,6 @@ public class Main {
                     chooseExhibition(worldWar2);
                     break;
             }
-
-        System.out.println("Money " + money.getCash());
-        System.out.println("Adult " + adult.getTicketsNumber());
-        System.out.println("Roman " + roman.getAvailableTickets());
 
     }
 
@@ -78,7 +65,7 @@ public class Main {
             System.out.println("There is no available tickets");
             return;
         }
-        System.out.println("How manny? ");
+        System.out.println("How manny tickets you need? ");
         int count = scanInt();
         if (ticket.getTicketsNumber() >= count){
             int requiredMoney = ticket.getTicketCost() * count;
@@ -98,7 +85,8 @@ public class Main {
             exhibitions.reduceSpaces((int) requiredMoney / ticket.getTicketCost());
         }else {
             while (cash < requiredMoney) {
-                System.out.println("Need " + (requiredMoney - cash));
+                System.out.println("Need - £" + (requiredMoney - cash));
+                System.out.print("£");
                 cash += scanInt();
             }
             money.receiveMoney(cash);
